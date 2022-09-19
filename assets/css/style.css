@@ -12,7 +12,7 @@ html, body {
 }
 
 header {
-    background: #5F30E2;
+    background: #7a2207;
     padding: 16px;
     color: white;
 }
@@ -77,7 +77,7 @@ header {
 input[type=text], input[type=date], input[type=number] {
     font-family: Raleway, sans-serif;
     background: #F5F1FF;
-    border: 2px solid #9475EA;
+    border: 2px solid #7a2207;
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
@@ -90,16 +90,16 @@ input[type=text], input[type=date], input[type=number] {
     font-family: Raleway, sans-serif;
     border-radius: 16px;
     padding: 12px 24px;
-    border: 2px solid #5F30E2;
+    border: 2px solid #7a2207;
     color: black;
     font-size: 24px;
     margin-top: auto;
-    align-self: flex-end;
+    align-self: center;
     cursor: pointer;
 }
 
 .btn-submit:hover {
-    background: #5F30E2;
+    background: #7a2207;
     color: white;
 }
 
@@ -119,7 +119,7 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
     width: 40px;
     height: 40px;
 
-    background: url('../assets/check-outline.svg');
+    background: url('/assets/img/check-outline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -127,15 +127,14 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .check-button:hover {
-    background: url('../assets/check-solid.svg');
+    background: url('/assets/img/check-solid.svg');
     background-size: contain;
 }
 
 .trash-button {
     width: 40px;
     height: 40px;
-
-    background: url('../assets/trash-outline.svg');
+    background: url('/assets/img/trash-outline.svg');
     background-size: contain;
     margin-left: 16px;
     cursor: pointer;
@@ -143,15 +142,14 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .trash-button:hover {
-    background: url('../assets/trash-fill.svg');
+    background: url('/assets/img/trash-fill.svg');
     background-size: contain;
 }
 
 .undo-button {
     width: 40px;
     height: 40px;
-
-    background: url('../assets/undo-ouline.svg');
+    background: url('/assets/img/undo-ouline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -159,7 +157,7 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .undo-button:hover {
-    background: url('../assets/undo-ouline.svg');
+    background: url('/assets/img/undo-ouline.svg');
     background-size: contain;
 }
 
