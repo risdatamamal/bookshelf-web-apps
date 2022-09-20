@@ -119,7 +119,7 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
     width: 40px;
     height: 40px;
 
-    background: url('/assets/img/check-outline.svg');
+    background: url('../../assets/img/check-outline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -127,14 +127,14 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .check-button:hover {
-    background: url('/assets/img/check-solid.svg');
+    background: url('../../assets/img/check-solid.svg');
     background-size: contain;
 }
 
 .trash-button {
     width: 40px;
     height: 40px;
-    background: url('/assets/img/trash-outline.svg');
+    background: url('../../assets/img/trash-outline.svg');
     background-size: contain;
     margin-left: 16px;
     cursor: pointer;
@@ -142,14 +142,14 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .trash-button:hover {
-    background: url('/assets/img/trash-fill.svg');
+    background: url('../../assets/img/trash-fill.svg');
     background-size: contain;
 }
 
 .undo-button {
     width: 40px;
     height: 40px;
-    background: url('/assets/img/undo-ouline.svg');
+    background: url('../../assets/img/undo-ouline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -157,7 +157,7 @@ input[type=text], input[type=date], input[type=number], .btn-submit:focus {
 }
 
 .undo-button:hover {
-    background: url('/assets/img/undo-ouline.svg');
+    background: url('../../assets/img/undo-ouline.svg');
     background-size: contain;
 }
 
